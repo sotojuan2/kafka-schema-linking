@@ -1,0 +1,23 @@
+{
+      "schema":
+        "{
+               \"type\": \"record\",
+               \"connect-name\": \"myname\",
+               \"connect-donuts\": \"mydonut\",
+               \"name\": \"test\",
+               \"doc\": \"some doc info\",
+                 \"fields\":
+                   [
+                     {
+                       \"type\": \"string\",
+                       \"doc\": \"doc for field1\",
+                       \"name\": \"field1\"
+                     },
+                     {
+                       \"type\": \"int\",
+                       \"doc\": \"doc for field2\",
+                       \"name\": \"field2\"
+                     }
+                   ]
+               }"
+     }
